@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ProfileFragment"
+    android:background="#fff">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="12dp">
+            <ImageView
+                android:layout_margin="8dp"
+                android:layout_width="125dp"
+                android:layout_height="125dp"
+                android:src="@drawable/logouabcs"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:textColor="#000"
+                    android:id="@+id/daySchedule"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Francisco Javier\nAngulo Sifuentes"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:textColor="#000"
+                    android:id="@+id/semester"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Semestre: 8vo"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:textColor="#000"
+                    android:id="@+id/degree"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Carrera: Ing. en Desarrollo de Software"
+                    android:textSize="16dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/idHorario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/calendar"
+                android:text="  Horario"
+                android:textSize="22dp"/>
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/idNotas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/edit"
+                android:text="  Notas"
+                android:textSize="22dp"
+                android:layout_marginTop="8dp"/>
+            <TextView
+                android:textColor="#000"
+                android:id="@+id/idCalificaciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/evaluation"
+                android:text="  Calificaciones  "
+                android:textSize="22dp"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

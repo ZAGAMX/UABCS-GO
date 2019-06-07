@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">UABCSgo</string>
+    <string name="title_location">Ubicación</string>
+    <string name="title_directory">Directorio</string>
+    <string name="title_perfil">Perfil</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_close">Cerrar Sesión</string>
+    <string name="title_reload">Actualizar Ubicación</string>
+    <string name="title_note">Agregar Nota</string>
+    <string name="title_save">Guardar nota</string>
+    <string name="title_delete">Borrar nota</string>
+</resources>

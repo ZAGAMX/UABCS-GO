@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="semestre">
+        <item>Semeste</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="carrera">
+        <item>Carrera</item>
+        <item>IDS</item>
+        <item>ITC</item>
+        <item>LATI</item>
+    </string-array>
+
+    <string-array name="turno">
+        <item>Turno</item>
+        <item>Vespertino</item>
+        <item>Matutino</item>
+    </string-array>
+</resources>

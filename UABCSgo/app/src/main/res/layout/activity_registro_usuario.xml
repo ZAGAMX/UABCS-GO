@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroUsuarioActivity"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginTop="100dp"
+            android:id="@+id/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="NOMBRE"/>
+        <EditText
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="16dp"
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CORREO"/>
+        <EditText
+            android:inputType="textPassword"
+            android:layout_marginTop="16dp"
+            android:id="@+id/contraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CONTRASEÑA"/>
+        <Spinner
+            android:layout_marginTop="16dp"
+            android:id="@+id/semestre"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            >
+
+        </Spinner>
+        <Spinner
+            android:layout_marginTop="16dp"
+            android:id="@+id/carrera"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+        </Spinner>
+        <Spinner
+            android:layout_marginTop="16dp"
+            android:id="@+id/turno"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+        </Spinner>
+        <Button
+            android:id="@+id/button"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Registrar"/>
+        <TextView
+            android:id="@+id/idBackLogin"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Volver"/>
+    </LinearLayout>
+
+</ScrollView>
